@@ -1,12 +1,13 @@
-requests
+beautifulsoup4==4.9.3
+cfscrape==2.1.1
+lk21==1.2.3
+lxml==4.6.2
+requests==2.25.1
 cloudscraper
 bs4 
 python-dotenv
 pyrogram==2.0.66
 tgcrypto
-lxml
-lk21==1.2.3
-cfscrape
 urllib3==1.26
 aiohttp
 Flask==1.1.2
