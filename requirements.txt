@@ -5,7 +5,7 @@ python-dotenv
 pyrogram==2.0.66
 tgcrypto
 lxml
-lk21
+lk21==1.2.3
 cfscrape
 urllib3==1.26
 aiohttp
