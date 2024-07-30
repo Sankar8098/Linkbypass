@@ -14,15 +14,15 @@ import re
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
-OWNER_ID = os.environ.get("OWNER_ID", "")
+bot_token = os.environ.get("TOKEN", "5811431199:AAGad6YjD5nC9PTgurWIbRM4krUpopevpf8")
+api_hash = os.environ.get("HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20") 
+api_id = os.environ.get("ID", "23990433")
+OWNER_ID = os.environ.get("OWNER_ID", "5821871362")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "")
-PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Sab537")
+PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-1004254490602")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
-UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", ""))
+UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", "SK_MoviesOffl"))
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 # handle ineex
